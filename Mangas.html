@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Anime já</title>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="estilos_CSS3/estilo.css"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,200&display=swap" rel="stylesheet">
+
+    <link href="Home.html">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="icon" id="favicon" href="imagens/icons-page.png" type="image/x-icon">
+
+
+    <style>
+        body{
+
+            background-image: url('imagens/bg_anime_pag.png');
+
+        }
+    </style>
+
+</head>
+<body>
+<nav class="navbar navbar-fixed-top navbar-expand-md navbar-dark" id="navMenu">
+    <div class="container">
+        <a class="navbar-brand h1 mb-0" href="Home.html">ANIME JÁ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MenuColapsado" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="MenuColapsado">
+            <ul class="navbar-nav ml-auto d-none d-sm-block d-md-none">
+                <li><a class="nav-link" href="Home.html">HOME</a></li>
+                <li><a class="nav-link" href="Animes.html">ANIMES</a></li>
+                <li><a class="nav-link" href="Mangas.html">MANGÁS</a></li>
+                <li><a class="nav-link" href="Curiosidades.html">CURIOSIDADES</a></li>
+            </ul>
+
+            <form class="form-inline  ml-auto d-none d-sm-block d-md-none " id="buscaColapsada">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </div>
+        <div class="collapse navbar-collapse" id="Menu">
+            <ul class="navbar-nav ml-auto">
+                <li><a class="nav-link" href="Home.html">HOME</a></li>
+                <li><a class="nav-link" href="Animes.html">ANIMES</a></li>
+                <li><a class="nav-link" href="Mangas.html">MANGÁS</a></li>
+                <li><a class="nav-link" href="Curiosidades.html">CURIOSIDADES</a></li>
+            </ul>
+            <form class="form-inline  ml-auto " id="busca">
+                <input class="form-control ml-auto" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-danger ml-auto" type="submit">Buscar</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="imagens/slide-08.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="imagens/slide-09.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="imagens/slide-10.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="imagens/slide-11.jpg" alt="Third slide">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div><br> <br>
+
+<div class="alert alert-warning alert-dismissible fade show text-center" role="alert" id="alerta">
+    <strong>Olá Otaku!</strong> Esse site contem conteúdos a respeito de animes e cultura japonesa, porém os sites disponíveis para players não são de minha autoria, são utilizados apenas para assistir os episódios listados.<br>
+    TODOS OS SITES UTILIZADOS PARA A REPRODUÇÃO DOS EPISODIOS UTILIZAM COOKIES PARA O USUARIO CONTER UMA EXPERIENCIA MELHOR AO NAVEGAR PELAS PÁGINAS <br> Recomendo a usarem o navegador google chrome para assistir ele é o mais compatível com o nosso site!!!
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="container">
+    <div class="text-center"> <H2></h2></div>
+    <div class="text-center" id="titulo1"> <H1>LISTA DE MANGÁS DISPONÍVEIS</h1></div> <br> <br>
+    <div class="card-deck">
+        <div class="card text-white bg-dark mb-3">
+            <img class="card-img-top" src="imagens/card-06.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title"><a href="https://www.supermangas.site/manga/naruto"> Naruto </a> </h5>
+                <p class="card-text">Naruto Uzumaki, um ninja hiperativo, vive na vila de Konoha. Momentos antes do seu nascimento, um demônio enorme conhecida como a Kyuubi, a Raposa de Nove Caudas, atacou Konoha e causou estragos. A fim de colocar um fim à violência da Kyuubi, o líder da vila, o 4° Hokage, sacrificou sua vida e selou a besta dentro do Naruto recém-nascido. Evitado por causa da presença da Kyuubi dentro dele, Naruto se esforça para encontrar seu lugar na aldeia. Ele se esforça para se tornar o Hokage da vila, e ele encontra muitos amigos e inimigos ao longo do caminho.</p>
+                <p class="card-text"><small class="text-muted">Total de 72 volumes</small></p>
+            </div>
+        </div>
+        <div class="card text-white bg-dark mb-3">
+            <img class="card-img-top" src="imagens/card-07.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title"><a href="https://www.supermangas.site/manga/death-note"> Death Note </a> </h5>
+                <p class="card-text">Light Yagami é um estudante promissor, mas que está muitíssimo entediado por ser mais inteligente do que todo mundo. Tudo isso muda quando ele encontra o Death Note, um caderno deixado na Terra por um Shinigami (deus da morte) renegado. Qualquer humano que tiver o nome escrito no caderno morrerá. Light jura usar o poder do Death Note para livrar o mundo do mal, mas a teoria de que "os fins justificam os meios" não é bem aceita pela polícia. Mergulhe neste eletrizante thriller psicológico e responda a pergunta: se achasse um caderno assim, o que você faria?</p>
+                <p class="card-text"><small class="text-muted">Total de 12 volumes</small></p>
+            </div>
+        </div>
+        <div class="card text-white bg-dark mb-3">
+            <img class="card-img-top" src="imagens/card-08.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title"> <a href="https://www.supermangas.site/manga/darling-in-the-franxx"> Darling in the franxx </a> </h5>
+                <p class="card-text">Eles sonham um dia voar pelo céu. Em um futuro distante: a humanidade se estabeleceu na cidade-fortaleza de Plantation, erguida sobre os destroços da guerra, e a civilização floresceu. Nessa cidade, há o Mistilteinn, um quartel de pilotos também conhecido como Gaiola. É lá que as crianças vivem… Alheios ao mundo de fora e da vastidão dos céus. um garoto era considerado um prodígio: Hiro, serial 016. Seus inimigos,os Kyoryu, gigantescos organismos misteriosos. As crianças operam robôs chamados FRANXX para enfrentar esses inimigos. </p>
+                <p class="card-text"><small class="text-muted">Total de 7 volumes</small></p>
+            </div>
+        </div>
+    </div>
+</div> <br> <br>
+<div class="container">
+    <div class="card-deck">
+        <div class="card text-white bg-dark mb-3">
+            <img class="card-img-top" src="imagens/card-09.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title"><a href="https://www.supermangas.site/manga/no-game-no-life"> No Game No Life </a> </h5>
+                <p class="card-text">A história de “No Game, No Life” se passa ao redor de Sora e Shiro, irmãos cuja a reputação como NEETs brilhantes, gamers reclusos, espalhou várias lendas urbanas pela internet, Esses dois gamers até mesmo consideram o mundo real como um “jogo com péssimos gráficos”. Certo dia, eles são evocados por um garoto chamado “Deus” para um mundo alternativo. Lá, Deus proibiu a guerra e declarou este um mundo onde “tudo é decidido com jogos”. Sora e Shiro se tornarão os “Salvadores da Humanidade”?“Que os jogos comecem!”</p>
+                <p class="card-text"><small class="text-muted">Total de 1 volume</small></p>
+            </div>
+        </div>
+        <div class="card text-white bg-dark mb-3">
+            <img class="card-img-top" src="imagens/card-10.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title"><a href="https://www.supermangas.site/manga/yu-yu-hakusho"> Yu Yu Hakusho </a> </h5>
+                <p class="card-text"> A série conta a história de Yusuke Urameshi, um bad boy que morreu atropelado ao tentar salvar uma criança. Como seu ato foi inesperado por todos, principalmente pelo Mundo Espiritual, Yusuke teve a chance de voltar a viver quando decidiu salvar uma amiga de infância em troca de seu retorno ao Ningenkai. Ao retornar à vida na Terra, descobre que uma condição para o seu retorno era a de se tornar um Detetive Espiritual. Devendo se dedicar a combater os demônios do Mundo das Trevas que por um acaso venham a se infiltrar no Mundo dos Homens</p>
+                <p class="card-text"><small class="text-muted">Total de 19 volumes</small></p>
+            </div>
+        </div>
+        <div class="card text-white bg-dark mb-3">
+            <img class="card-img-top" src="imagens/card-11.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title"> <a href="https://www.supermangas.site/manga/dragon-ball">Dragon Ball </a> </h5>
+                <p class="card-text">Já adulto, Goku conhece seu irmão mais velho Raditz, um sayajin.Tal raça enviou Goku ainda criança para a Terra com o objetivo de conquistar o planeta. Mas, ele fere sua cabeça logo após a aterrissagem e esquece sua missão inicial. Goku se nega a ajudar Raditz a continuar a missão e começa a confrontar outros inimigos do espaço, como o príncipe dos Saiyajins Vegeta, que se torna seu rival e posteriormente seu aliado. Ele também enfrenta Freeza, um tirano galático responsável pela destruição da raça Saiyajin.</p>
+                <p class="card-text"><small class="text-muted">Total de 42 volumes</small></p>
+            </div>
+        </div>
+    </div>
+</div><br> <br>
+
+<div class="col-ms-3">
+    <figure class="text-center">
+        <img src="imagens/girl_03.gif" alt="kawwaii girl">
+    </figure>
+</div> <br> <br>
+
+
+<footer>
+    <div class="footer-content" id="REDES">
+        <h1><a href="Home.html">ANIME JÁ</a></h1>
+        <p> Animes no momento certo, para pessoas certas!</p>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/profile.php?id=100062696326677" class="fa fa-facebook" target="_blank"></a></li>
+            <li><a href="https://twitter.com/Ttams14 " class="fa fa-twitter" target="_blank"></a></li>
+            <li><a href="https://www.youtube.com/channel/UCHsFku_FjUo-ScZqhMbunXA" class="fa fa-youtube" target="_blank"></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p> copyright &copy;2021 ttams.inc</p>
+    </div>
+</footer>
+
+</body>
+</html>

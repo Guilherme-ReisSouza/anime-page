@@ -1,0 +1,216 @@
+body{
+
+    font-family: 'IBM Plex Serif', serif;
+    color: #FFFFFA;
+    background-color: #515052;
+}
+nav#navMenu {
+
+    font-family: 'IBM Plex Serif', serif;
+    background-color: #333138;
+    position: relative;
+}
+nav#navMenu div ul li a{
+
+    color: #FFFFFA;
+    position: relative;
+}
+
+
+nav div#Menu ul li a:hover{
+
+    color: #FF312E;
+    background: #FFFFFA;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor:pointer;
+    transition: all 900ms ease;
+}
+nav div#MenuColapsado ul li a:hover{
+
+    color: #FF312E;
+    background: #FFFFFA;
+    padding-left: 15px;
+    border-radius: 10px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    cursor:pointer;
+    transition: all 900ms ease;
+}
+form {
+    padding-left: 5px;
+}
+div #alerta strong button span {
+
+    box-sizing: border-box;
+}
+div div#titulo1 h1 {
+    font-family: 'IBM Plex Serif', serif;
+    color: #FF312E;
+    font-weight: bold;
+}
+div div#titulo2 h1 {
+    font-family: 'IBM Plex Serif', serif;
+    color: #FF312E;
+    font-weight: bold;
+    font-style: oblique;
+
+}
+div div#titulo3 h1 {
+    font-family: 'IBM Plex Serif', serif;
+    color: #FF312E;
+    font-weight: bold;
+    font-style: oblique;
+
+}
+
+.fa {
+
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+
+    color: #FF312E;
+    opacity: 0.7;
+}
+
+.fa-twitter {
+
+    background-color: #333138;
+    color: #FFFFFA;
+}
+
+.fa-youtube {
+
+    background: #333138;
+    color: #FFFFFA;
+}
+
+.fa-instagram {
+
+    background: #333138;
+    color: #FFFFFA;
+}
+
+.fa-soundcloud {
+
+    background: #333138;
+    color: #FFFFFA;
+}
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer{
+
+    position: absolute;
+    background: #333138;
+    height: auto;
+    width: 100vw;
+    font-family: 'IBM Plex Serif', serif;
+    padding-top: 40px;
+    color:#FFFFFA;
+}
+.footer-content{
+
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h1{
+
+    color: #FF312E;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 20px;
+}
+.socials{
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    font-size: 1.9rem;
+}
+.socials li{
+
+    margin: 0 10px;
+}
+.socials a{
+
+    text-decoration: none;
+    color: #FFFFFA;
+}
+.socials a i{
+
+    font-size: 4.0rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+
+    color: #FF312E;
+}
+.footer-bottom{
+
+    background: #1E1C21;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+
+    color: #FF312E;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+p{
+
+    font-family: 'IBM Plex Serif', serif;
+    color: #FFFFFA;
+    text-align: center;
+}
+
+a {
+    color:  #FF312E;
+}
+a:hover {
+
+    color: #FFFFFA;
+}
+a:active {
+
+    color: #515052;
+}
+.card-title {
+
+    text-align: center;
+}
+.card-img-top:hover{
+
+    transform: scale(1.03);
+    transition: all 1200ms ease;
+    border-radius: 15px;
+}
+
