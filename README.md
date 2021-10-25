@@ -6,7 +6,7 @@
 <div>
     <br>
     <img src="https://cdn.discordapp.com/attachments/820125695958843432/882331678868140072/unknown.png" target="_blank"><br>
-   <br> Caso tenha se Interesse, basta clicar <a href = "https://javascriptexercicios.netlify.app/home">⚠️ AQUI ⚠️</a> para experienciar por conta as features desse projeto. 
+   <br> Caso tenha se Interesse, basta clicar <a href = "https://animeja.netlify.app">⚠️ AQUI ⚠️</a> para experienciar por conta as features desse projeto. 
 </div>
 
 ##
